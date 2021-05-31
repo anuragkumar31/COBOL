@@ -1,0 +1,12 @@
+IF WS-NUM1 > WS-NUM2 THEN
+      DISPLAY 'IN LOOP 1 - IF BLOCK'
+      
+      IF WS-NUM3 = WS-NUM4 THEN
+         DISPLAY 'IN LOOP 2 - IF BLOCK'
+      ELSE
+         DISPLAY 'IN LOOP 2 - ELSE BLOCK'
+      END-IF
+      
+   ELSE
+      DISPLAY 'IN LOOP 1 - ELSE BLOCK'
+   END-IF.
